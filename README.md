@@ -1,0 +1,2 @@
+# ShinaseHumanRightsPractices
+中国の人権状況に関する国別報告書
