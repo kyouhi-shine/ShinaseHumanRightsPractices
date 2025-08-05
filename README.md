@@ -1,14 +1,13 @@
 # ShinaseHumanRightsPractices
 中国の人権状況に関する国別報告書
 https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
-
 <!DOCTYPE html>
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）</title>
         <meta name="description" content="2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）、U.S. Department of State「2023 Country Report on Human Rights – China」">
         <meta name="keywords" content="2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）、U.S. Department of State「2023 Country Report on Human Rights – China」">
+        <title>2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）</title>
     </head>
     <body>
         <h1>2023 年の人権状況に関する国別報告書：中華人民共和国（香港、マカオ、チベットを含む）</h1>
@@ -48,7 +47,7 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                                 <p>収容所で死亡した親族を発見したウイグル人の家族からの複数の報告がありました。また、拘留から数週間以内に死亡したケースもありました。RFAの2022 年 12 月の報告によれば、2017 年に拘留され、「民族分離主義を支持した」として有罪判決を受けたウイグル人詩人アブドゥラ・サウットは、2022 年 12 月に刑務所からの釈放直後に亡くなりました。</p>
                             </section>
                             <section class="entry-content">
-                                <h3 id="report-toc__section-2__subsection-2" class="report__section-subtitle">b. 消失</h3>
+                                <h3 id="report-toc__section-2__subsection-2" class="report__section-subtitle">b. 失踪</h3>
                                 <p>全国的かつ体系的な規模で、さまざまな手段による強制的な失踪が続いています。</p>
                                 <p>当局が個人を長期間にわたり強制的に失踪させる主な手段は、「指定場所での居住監視」（RSDL）として知られていました。RSDLは、国家安全保障にリスクがあると見なされる個人を拘束し、公の目から排除するという長年の慣行を法制化したものです。公務員に対する主な失踪メカニズムは<i>留置</i>として知られています。多くの報告によれば、RSDLや留置によって失踪した個人は、身体的および心理的虐待、屈辱、強姦、拷問、飢餓、孤立、強制的な自白など、さまざまな虐待を受けているとされています。人権NGO「セーフガード・ディフェンダーズ」の2022年4月の報告によれば、2015年から2021年の間に、55,977人から113,407人がRSDLに置かれ（その後、裁判を受けた）とされています。</p>
                                 <p>新疆で政府の大規模な恣意的拘束キャンペーンにより拘束された多くのウイグル人、カザフ族、キルギス人、その他のムスリムおよび民族的少数派グループのメンバーは、依然として投獄されています。アムネスティ・インターナショナル、ヒューマン・ライツ・ウォッチ、その他のNGOは、これらの拘束の多くが強制失踪に該当すると主張しており、家族には拘束の期間や場所に関する情報が提供されないことが多かったとされています。</p>
@@ -107,7 +106,7 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                                 <h3 id="report-toc__section-2__subsection-5" class="report__section-subtitle">e. 公正な公判の否定</h3>
                                 <p>法律では、裁判所は行政機関、社会団体、個人からの干渉を受けずに独立して司法権を行使すべきとされていますが、実際には司法は独立して司法権を行使していませんでした。裁判官は、特に政治的に敏感な案件において、国や地方政府、共産党から保留中の事件に関する政治的指導を定期的に受けており、どのように判決を下すべきかの指示も含まれていました。共産党は裁判所の運営を指導し、すべての司法および検察の任命を承認していました。</p>
                                 <p>腐敗はしばしば裁判の決定に影響を与えました。司法腐敗に対する安全策は曖昧で、十分に施行されていなかったためです。共産党が管理する委員会がほとんどの主要な事件を決定し、第一審および控訴裁判所の裁判官の役割は、委員会の決定に対する法的な正当化を作成することでした。裁判所は一般の出席を常に禁止していました。</p>
-                                <h4 id="report-toc__section-2__subsection-5__h4-3">試験手続き</h4>
+                                <h4 id="report-toc__section-2__subsection-5__h4-3">裁判手続き</h4>
                                 <p>法律は無罪の推定を再確認したが、刑事司法制度は特に注目を集める事件や政治的に敏感な事件において、有罪の推定に偏ったままだった。</p>
                                 <p>裁判所は、罪を認めない被告に対して、 confessionした被告よりも厳しい判決を下すことがよくありました。控訴手続きは有罪判決を覆すことはほとんどなく、十分な審査の手段を提供することもできませんでした。被告の権利侵害に対する救済措置は不十分でした。</p>
                                 <p>当局はしばしば公判を一般に公開せず、国家機密条項を利用して政治的に敏感な手続きを閉じ、時には家族に対しても閉じられ、被告が弁護人にアクセスすることを妨げました。刑事被告人は法的支援を受ける資格がありましたが、ほとんどの刑事被告人は弁護士なしで裁判を受けました。</p>
@@ -161,7 +160,7 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                     </section>
                     <section class="report__content__inner entry-content">
                         <p class="report-toc-section">第 2 節</p>
-                        <h2 id="report-toc__section-3" class="report__section-title">市民的自由の尊重</h2><!-- Sub-Sections -->
+                        <h2 id="report-toc__section-3" class="report__section-title">市民の自由の尊重</h2><!-- Sub-Sections -->
                         <div class="section_wrapper">
                             <div class="section_body"></div>
                             <section class="entry-content">
@@ -287,7 +286,7 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                     </section>
                     <section class="report__content__inner entry-content">
                         <p class="report-toc-section">第 3 節</p>
-                        <h2 id="report-toc__section-4" class="report__section-title">政治プロセスに参加する自由</h2><!-- Sub-Sections -->
+                        <h2 id="report-toc__section-4" class="report__section-title">政治プロセスに参加の自由</h2><!-- Sub-Sections -->
                         <div class="section_wrapper">
                             <div class="section_body">
                                 <p>憲法には「中華人民共和国のすべての権力は人民に属する」と記されており、市民が国家権力を行使するための機関は全国人民代表大会および省、地区、地方レベルの人民代表大会であった。中国共産党（CCP）は、議会に対して立法の議題を指示した。法律では、郡レベル以下の人民代表の選挙が定められていたが、市民は自分たちを統治する官吏を自由に選ぶことはできなかった。CCPはすべての選挙を管理し、政治権力のポジションへの任命を引き続きコントロールしていた。CCPは、独立候補者が地方選挙に立候補するのを妨げるために、自宅軟禁を含むさまざまな脅迫手段を用いた。</p>
@@ -317,7 +316,7 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                     </section>
                     <section class="report__content__inner entry-content">
                         <p class="report-toc-section">第 5 節</p>
-                        <h2 id="report-toc__section-6" class="report__section-title">政府の国際的および非政府的な人権侵害の監視および調査に対する姿勢</h2><!-- Sub-Sections -->
+                        <h2 id="report-toc__section-6" class="report__section-title">国際機関および非政府組織による人権侵害の監視・調査に対する政府の姿勢</h2><!-- Sub-Sections -->
                         <div class="section_wrapper">
                             <div class="section_body">
                                 <p>政府は市民社会団体に対する支配を維持し、独立したNGOの出現を阻止し、市民社会や人権団体の活動を妨げようとしました。政府は国内のNGOを頻繁に嫌がらせし、多くの場合、彼らが人権状況を公に監視したりコメントしたりすることを許可しませんでした。政府は独立した組織に対して疑念を抱き、海外との財政的またはその他のつながりを持つNGOを厳しく監視しました。政府はすべての国内NGOを直接的な規制の下に置き、独立したNGOが存在するためのスペースを制限し続けました。ほとんどの大規模なNGOは準政府的であり、すべての公式なNGOは政府機関のスポンサーを持つことが求められました（第2.b節、結社の自由を参照）。</p>
@@ -428,7 +427,7 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                         <div class="section_wrapper">
                             <div class="section_body"></div>
                             <section class="entry-content">
-                                <h3 id="report-toc__section-8__subsection-1" class="report__section-subtitle">a. 結社の自由と団体交渉権</h3>
+                                <h3 id="report-toc__section-8__subsection-1" class="report__section-subtitle">a. 結社の自由と団体交渉の権利</h3>
                                 <p>法律は結社の自由を保障しておらず、労働者は自分の選択した労働組合を組織したり加入したりする自由がありませんでした。法律の下で認められている唯一の組合は全中国労働組合連合（ACFTU）でした。独立した労働組合は違法であり、ストライキの権利も法律によって保護されていませんでした。法律は、すべての種類の企業における労働者のための団体賃金交渉を認めていました。さらに、法律は産業セクター全体または地域の団体契約を定め、企業レベルの団体契約は全国的に一般的に義務付けられていました。規則は、政府が管理する組合が経営陣との協議の前に労働者からの意見を集め、団体契約を労働者またはその大会に承認のために提出することを求めていました。雇用主が交渉や誠実な交渉を行う法的義務はなく、一部の雇用主はそれを拒否しました。ほとんどの団体契約は、すでに法律によって定められた賃金と労働時間の条件を単に再確認するものでした。</p>
                                 <p>この法律は、反労働組合差別からの法的保護を提供し、労働組合の代表者がその任期中に企業の経営陣によって移転または解雇されることができないことを明記しました。また、公式な労働組合活動のために解雇された労働者の復職を認め、反労働組合活動を行った企業に対する罰則を定めました。しかし、この法律は、公式に認められた労働組合とは独立して雇用主との団体交渉を要求または参加した労働者を保護していませんでした。</p>
                                 <p>すべての労働組合活動は、政治局のメンバーが議長を務める中国共産党の機関である全人代（ACFTU）の承認を得て、組織されなければなりませんでした。全人代およびその地方支部は、新しい構成労働組合を設立し、特に技術企業や運輸・サービス業の労働者の間で新しいメンバーを追加し続けました。この法律は、全人代に対して、企業や公共機関との間で労働者を代表して団体契約を交渉・締結する権限を持つ構成労働組合に対する財政的および行政的な管理権を与えました。しかし、この法律は全人代に対して、労働者の利益を直接的に争議で代表することを義務付けてはいませんでした。ストライキにおける全人代の法的に指定された役割は、調査に参加し、人力資源・社会保障省の争議解決を支援することだけでした。</p>
@@ -443,13 +442,13 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                                 <p>国務省の<i>人身売買報告書</i>をご覧ください。<a class="" href="https://www.state.gov/trafficking-in-persons-report/"> <span class="external-link-title">https://www.state.gov/trafficking-in-persons-report/</span></a>。</p>
                             </section>
                             <section class="entry-content">
-                                <h3 id="report-toc__section-8__subsection-3" class="report__section-subtitle">c. 子供労働の禁止と雇用の最低年齢</h3>
+                                <h3 id="report-toc__section-8__subsection-3" class="report__section-subtitle">c. 児童労働の禁止と雇用の最低年齢</h3>
                                 <p>法律は、最も悪質な形態の児童労働を禁止しました。法律は、16歳未満の子供の雇用を禁止しました。16歳から18歳の労働者を「未成年労働者」と呼び、鉱山を含む特定の危険な作業に従事することを禁止しました。民間部門で児童労働の報告があった場合、政府は法律を施行したとされています。</p>
                                 <p>法律は、子供を不法に雇用した企業に対して、行政審査、罰金、営業許可の取り消しを規定していた。この法律は、未成年の働く子供を元の居住地にいる親または他の保護者に返すことを定めていた。罰則は誘拐などの類似の重大犯罪に対するものと同等であったが、全国の地方当局による年次検査キャンペーンにもかかわらず、立法と実施の間にはギャップが残っていた。違反者に対しては定期的に罰則が適用されていた。</p>
                                 <p>製造業、サービス業、小売業における児童労働の報告がありました。子供たちは機械や電子工場、飲料店で働いていることが確認され、ウェイターとして雇われているケースもありました。</p>
                             </section>
                             <section class="entry-content">
-                                <h3 id="report-toc__section-8__subsection-4" class="report__section-subtitle">d. 差別（第6節を参照）</h3>    <!--If legacy subsection body is empty, use sub-section w/ h4 repeater.-->
+                                <h3 id="report-toc__section-8__subsection-4" class="report__section-subtitle">d. 差別（第 6 節を参照）</h3>    <!--If legacy subsection body is empty, use sub-section w/ h4 repeater.-->
                             </section>
                             <section class="entry-content">
                                 <h3 id="report-toc__section-8__subsection-5" class="report__section-subtitle">e. 受け入れ可能な労働条件</h3>
@@ -484,7 +483,7 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                                             <a id="section-2__subsection-1" href="#report-toc__section-2__subsection-1" class="report-toc__sub-section-link">a. 恣意的な生命の剥奪およびその他の違法または政治的動機による殺人</a>
                                         </li>
                                         <li class="report-toc__sub-section">
-                                            <a id="section-2__subsection-2" href="#report-toc__section-2__subsection-2" class="report-toc__sub-section-link">b. 行方不明</a></li>
+                                            <a id="section-2__subsection-2" href="#report-toc__section-2__subsection-2" class="report-toc__sub-section-link">b. 失踪</a></li>
                                         <li class="report-toc__sub-section">
                                             <a id="section-2__subsection-3" href="#report-toc__section-2__subsection-3" class="report-toc__sub-section-link">c. 拷問及びその他の残虐で非人道的または屈辱的な扱いや処罰、その他の関連する虐待</a>
                                             <ol class="report-toc__h4_sub-sections">
@@ -522,7 +521,7 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                                         </li>
                                     </ol>
                                 </li>
-                                <li class=""><a id="section-3" href="#report-toc__section-3" class="">第 2 節. 市民的自由の尊重</a>
+                                <li class=""><a id="section-3" href="#report-toc__section-3" class="">第 2 節. 市民の自由の尊重</a>
                                     <ol class="report-toc__sub-sections">
                                         <li class="report-toc__sub-section">
                                             <a id="section-3__subsection-1" href="#report-toc__section-3__subsection-1" class="report-toc__sub-section-link">a. 表現の自由、報道機関やその他のメディアのメンバーを含む</a>
@@ -556,15 +555,15 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                                         </li>
                                     </ol>
                                 </li>
-                                <li class=""><a id="section-4" href="#report-toc__section-4" class="">第 3 節. 政治プロセスへの参加の自由</a>
+                                <li class=""><a id="section-4" href="#report-toc__section-4" class="">第 3 節. 政治プロセスに参加の自由</a>
                                     <ol class="report-toc__sub-sections">
                                         <li class="report-toc__sub-section">
                                             <a id="section-4__subsection-1" href="#report-toc__section-4__subsection-1" class="report-toc__sub-section-link">選挙と政治参加</a>
                                         </li>
                                     </ol>
                                 </li>
-                                <li class=""><a id="section-5" href="#report-toc__section-5" class="">第 4 節. 政府における腐敗</a></li>
-                                <li class=""><a id="section-6" href="#report-toc__section-6" class="">第 5 節. 国際的および非政府の人権侵害の監視および調査に対する政府の姿勢</a></li>
+                                <li class=""><a id="section-5" href="#report-toc__section-5" class="">第 4 節. 政府の腐敗</a></li>
+                                <li class=""><a id="section-6" href="#report-toc__section-6" class="">第 5 節. 国際機関および非政府組織による人権侵害の監視・調査に対する政府の姿勢</a></li>
                                 <li class=""><a id="section-7" href="#report-toc__section-7" class="">第 6 節. 差別と社会的虐待</a>
                                     <ol class="report-toc__sub-sections">
                                         <li class="report-toc__sub-section">
@@ -606,7 +605,7 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
                                             <a id="section-8__subsection-3" href="#report-toc__section-8__subsection-3" class="report-toc__sub-section-link">c. 児童労働の禁止と雇用の最低年齢</a>
                                         </li>
                                         <li class="report-toc__sub-section">
-                                            <a id="section-8__subsection-4" href="#report-toc__section-8__subsection-4" class="report-toc__sub-section-link">d. 差別（セクション6を参照）</a>
+                                            <a id="section-8__subsection-4" href="#report-toc__section-8__subsection-4" class="report-toc__sub-section-link">d. 差別（第 6 節を参照）</a>
                                         </li>
                                         <li class="report-toc__sub-section">
                                             <a id="section-8__subsection-5" href="#report-toc__section-8__subsection-5" class="report-toc__sub-section-link">e. 受け入れ可能な労働条件</a>
