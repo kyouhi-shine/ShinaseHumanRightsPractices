@@ -1,4 +1,4 @@
-# ShinaseHumanRightsPractices
+# 2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）
 中国の人権状況に関する国別報告書
 https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
 <!DOCTYPE html>
@@ -7,7 +7,6 @@ https://kyouhi-shine.github.io/ShinaseHumanRightsPractices/
         <meta charset="UTF-8">
         <meta name="description" content="2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）、U.S. Department of State「2023 Country Report on Human Rights – China」">
         <meta name="keywords" content="2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）、U.S. Department of State「2023 Country Report on Human Rights – China」">
-        <title>2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）</title>
     </head>
     <body>
         <h1>2023 年の人権状況に関する国別報告書：中華人民共和国（香港、マカオ、チベットを含む）</h1>
