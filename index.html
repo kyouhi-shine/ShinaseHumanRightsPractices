@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）、U.S. Department of State「2023 Country Report on Human Rights – China」">
-        <meta name="keywords" content="2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）、U.S. Department of State「2023 Country Report on Human Rights – China」">
+        <meta name="keywords" content="2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）、U.S. Department of State「2023 Country Report on Human Rights – China」、支那人、支那人権状況、中国人人権、中国人権状況">
         <title>2023 年中国の人権状況に関する国別報告書：（香港、マカオ、チベットを含む）</title>
         <style>
             body {
@@ -28,7 +28,7 @@
             }
             .wp-block-report-content.report.row {
                 margin: 105px;
-                margin-right: 30px;
+                margin-right: 10px;
                 padding-left: 30px;
                 display: flex;
             }
@@ -69,10 +69,80 @@
                 letter-spacing: -.25px;
             }
             .report__side {
-                min-width: 436px;
+                min-width: 434px;
                 position: sticky;
                 top: 0;
                 height: max-content;
+                font-size: 12.4px;
+            }
+
+            .show-side-menu {
+                position: fixed;
+                top: 15px;
+                right: 12px;
+                z-index: 1;
+            }
+            #menu-toggle {
+                display: none;
+            }
+            .menu-icon {
+                display: none;
+            }
+
+
+            @media screen and (max-width: 1000px) {
+                .report__side {
+                    width: 0;
+                    max-width: 0;
+                    min-width: 0;
+                    overflow: hidden;
+                    position: fixed;
+                    left: 0;
+                    top: 0;
+                }
+                .wp-block-report-content.report.row {
+                    margin-left: 10px;
+                }
+                .report__main {
+                    padding: 28px 37px 0;
+                }
+
+                .menu-icon {
+                    display: block;
+                    width: 36px;
+                    height: 36px;
+                    background-color: #333;
+                    color: white;
+                    text-align: center;
+                    cursor: pointer;
+                }
+                .menu-icon::before {
+                    content: "☰";
+                    font-size: 30px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -60%);
+                }
+                .show-side-menu:has(#menu-toggle:checked) + .report__side {
+                    display: block;
+                    background-color: white;
+                    width: 100%;
+                    max-width: 100%;
+                    min-width: 100%;
+                    overflow: scroll;
+                    min-height: 100%;
+                }
+                .show-side-menu:has(#menu-toggle:checked) .menu-icon::before {
+                    content: "X";
+                    font-size: 24px;
+                    position: static;
+                }
+            }
+
+
+            .report__side ol {
+                padding-left: 20px;
             }
             .report__side li {
                 list-style-type: none;
@@ -94,26 +164,25 @@
             <p>本翻訳は非公式です。原文が正とされます。</p>
         </div>
         <div class="wp-block-report-content report row">
-            <section class="report__main js-backtotop">
-                <div id="report_content" class="report__content"><!-- Executive Summary (Child Pages) -->
+            <section class="report__main">
+                <div id="report_content" class="report__content">
                     <section class="report__content__inner entry-content">
                         <h2 id="report-toc__exec-summary" class="report__section-title">セクションを読む: 中国</h2>
                         <p class="stars-above">香港 | マカオ | チベット</p>
-                    </section><!-- Report Content --><!-- Sections -->
+                    </section>
                     <section class="report__content__inner entry-content">
-                        <h2 id="report-toc__section-1" class="report__section-title">エグゼクティブサマリー</h2><!-- Sub-Sections -->
+                        <h2 id="report-toc__section-1" class="report__section-title">エグゼクティブサマリー</h2>
                         <div class="section_wrapper">
                             <div class="section_body">
                                 <p>中国では、主にイスラム教徒のウイグル人や新疆の他の民族・宗教的少数派グループに対して、年間を通じてジェノサイドや人道に対する罪が発生しました。</p>
-                                <p>重大な人権問題には、以下のような信頼できる報告が含まれます：政府による恣意的または違法な殺害；政府による強制失踪；政府による拷問；非自発的または強制的な医療または心理的実践；厳しく生命を脅かす刑務所および拘留条件；政府による恣意的な逮捕および拘留、特に2017 年以降、100 万人以上のウイグル人および他の主にイスラム教徒の少数民族グループが法外な収容所や刑務所に収容され、さらに昼間のみの「再教育」訓練を受ける不明な数の人々がいる；独立した司法の欠如と司法および法制度に対する共産党の支配；政治囚；他国にいる個人に対する越境抑圧；広範で侵入的な技術的監視およびモニタリングを含むプライバシーへの恣意的な干渉；親族が犯したとされる犯罪に対する家族の罰；ジャーナリスト、弁護士、作家、ブロガー、反体制派、請願者などに対する刑事訴追を含む表現の自由およびメディアの自由に対する深刻な制限；サイトブロッキングを含むインターネットの自由に対する深刻な制限；外国および国内の非政府組織に適用される過度に制限的な法律を含む平和的集会の自由および結社の自由に対する実質的な干渉；宗教の自由に対する制限；移動および居住の自由に対する制限；市民が自由で公正な選挙を通じて平和的に政府を変更することができない；政治参加に対する深刻で不合理な制限；深刻な政府の腐敗；国内および国際的な人権団体に対する政府の深刻な制限および嫌がらせ；強制的な中絶および強制的な不妊手術の事例；ウイグル人を含む国民、民族、民族的少数派グループのメンバーを標的とした暴力を伴う犯罪；強制労働を含む人身売買；独立した労働組合の禁止および労働者の結社の自由に対する体系的な制限；および最悪の形態の児童労働の存在。
-                                </p>
+                                <p>重大な人権問題には、以下のような信頼できる報告が含まれます：政府による恣意的または違法な殺害；政府による強制失踪；政府による拷問；非自発的または強制的な医療または心理的実践；厳しく生命を脅かす刑務所および拘留条件；政府による恣意的な逮捕および拘留、特に2017 年以降、100 万人以上のウイグル人および他の主にイスラム教徒の少数民族グループが法外な収容所や刑務所に収容され、さらに昼間のみの「再教育」訓練を受ける不明な数の人々がいる；独立した司法の欠如と司法および法制度に対する共産党の支配；政治囚；他国にいる個人に対する越境抑圧；広範で侵入的な技術的監視およびモニタリングを含むプライバシーへの恣意的な干渉；親族が犯したとされる犯罪に対する家族の罰；ジャーナリスト、弁護士、作家、ブロガー、反体制派、請願者などに対する刑事訴追を含む表現の自由およびメディアの自由に対する深刻な制限；サイトブロッキングを含むインターネットの自由に対する深刻な制限；外国および国内の非政府組織に適用される過度に制限的な法律を含む平和的集会の自由および結社の自由に対する実質的な干渉；宗教の自由に対する制限；移動および居住の自由に対する制限；市民が自由で公正な選挙を通じて平和的に政府を変更することができない；政治参加に対する深刻で不合理な制限；深刻な政府の腐敗；国内および国際的な人権団体に対する政府の深刻な制限および嫌がらせ；強制的な中絶および強制的な不妊手術の事例；ウイグル人を含む国民、民族、民族的少数派グループのメンバーを標的とした暴力を伴う犯罪；強制労働を含む人身売買；独立した労働組合の禁止および労働者の結社の自由に対する体系的な制限；および最悪の形態の児童労働の存在。</p>
                                 <p>政府は人権侵害を行った可能性のある官僚を特定したり処罰したりするための信頼できる措置を講じなかった。</p>
                             </div>
                         </div>
                     </section>
                     <section class="report__content__inner entry-content">
                         <p class="report-toc-section">第 1 節</p>
-                        <h2 id="report-toc__section-2" class="report__section-title">人の尊厳の尊重</h2><!-- Sub-Sections -->
+                        <h2 id="report-toc__section-2" class="report__section-title">人の尊厳の尊重</h2>
                         <div class="section_wrapper">
                             <div class="section_body"></div>
                             <section class="entry-content">
@@ -546,152 +615,156 @@
                     <div class="report__tags"></div>
                 </div>
             </section>
-            <div class="report__side">        <!-- Open button, mobile -->
-                <!-- // #report-nav -->
-                <div id="mininav_outer" class="">
-                    <div id="mininav_wrapper">
-                        <div id="mininav">
-                            <ol>
-                                <li class="">
-                                    <a id="section-2" href="#report-toc__section-2" class=""> 第 1 節. 人の尊厳の尊重</a>
-                                    <ol class="report-toc__sub-sections">
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-2__subsection-1" href="#report-toc__section-2__subsection-1" class="report-toc__sub-section-link">a. 恣意的な生命の剥奪およびその他の違法または政治的動機による殺人</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-2__subsection-2" href="#report-toc__section-2__subsection-2" class="report-toc__sub-section-link">b. 失踪</a></li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-2__subsection-3" href="#report-toc__section-2__subsection-3" class="report-toc__sub-section-link">c. 拷問及びその他の残虐で非人道的または屈辱的な扱いや処罰、その他の関連する虐待</a>
-                                            <ol class="report-toc__h4_sub-sections">
-                                                <li class="report-toc__h4_sub-section">
-                                                    <a id="section-2__subsection-3__h4-1" href="#report-toc__section-2__subsection-3__h4-1" class="">刑務所および拘置所の状況</a>
-                                                </li>
-                                            </ol>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-2__subsection-4" href="#report-toc__section-2__subsection-4" class="report-toc__sub-section-link">d. 恣意的な逮捕または拘留</a>
-                                            <ol class="report-toc__h4_sub-sections">
-                                                <li class="report-toc__h4_sub-section">
-                                                    <a id="section-2__subsection-4__h4-2" href="#report-toc__section-2__subsection-4__h4-2" class="">逮捕手続きおよび拘留者の扱い</a>
-                                                </li>
-                                            </ol>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-2__subsection-5" href="#report-toc__section-2__subsection-5" class="report-toc__sub-section-link">e. 公正な公判の否定</a>
-                                            <ol class="report-toc__h4_sub-sections">
-                                                <li class="report-toc__h4_sub-section">
-                                                    <a id="section-2__subsection-5__h4-3" href="#report-toc__section-2__subsection-5__h4-3" class="">裁判手続き</a>
-                                                </li>
-                                                <li class="report-toc__h4_sub-section">
-                                                    <a id="section-2__subsection-5__h4-4" href="#report-toc__section-2__subsection-5__h4-4" class="">政治犯と拘留者</a>
-                                                </li>
-                                            </ol>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-2__subsection-6" href="#report-toc__section-2__subsection-6" class="report-toc__sub-section-link">f. 国境を越えて鎮圧</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-2__subsection-7" href="#report-toc__section-2__subsection-7" class="report-toc__sub-section-link">g. 財産の押収と返還</a></li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-2__subsection-8" href="#report-toc__section-2__subsection-8" class="report-toc__sub-section-link">h. 任意または違法なプライバシー、家族、住居、または通信への干渉</a>
-                                        </li>
-                                    </ol>
-                                </li>
-                                <li class=""><a id="section-3" href="#report-toc__section-3" class="">第 2 節. 市民の自由の尊重</a>
-                                    <ol class="report-toc__sub-sections">
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-3__subsection-1" href="#report-toc__section-3__subsection-1" class="report-toc__sub-section-link">a. 表現の自由、報道機関やその他のメディアのメンバーを含む</a>
-                                            <ol class="report-toc__h4_sub-sections">
-                                                <li class="report-toc__h4_sub-section">
-                                                    <a id="section-3__subsection-1__h4-5" href="#report-toc__section-3__subsection-1__h4-5" class="">インターネットの自由</a>
-                                                </li>
-                                            </ol>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-3__subsection-2" href="#report-toc__section-3__subsection-2" class="report-toc__sub-section-link">b. 平和的集会および結社の自由</a>
-                                            <ol class="report-toc__h4_sub-sections">
-                                                <li class="report-toc__h4_sub-section">
-                                                    <a id="section-3__subsection-2__h4-6" href="#report-toc__section-3__subsection-2__h4-6" class="">平和的集会の自由</a>
-                                                </li>
-                                                <li class="report-toc__h4_sub-section">
-                                                    <a id="section-3__subsection-2__h4-7" href="#report-toc__section-3__subsection-2__h4-7" class="">結社の自由</a>
-                                                </li>
-                                            </ol>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-3__subsection-3" href="#report-toc__section-3__subsection-3" class="report-toc__sub-section-link">c. 宗教の自由</a></li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-3__subsection-4" href="#report-toc__section-3__subsection-4" class="report-toc__sub-section-link">d. 移動の自由と国を離れる権利</a></li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-3__subsection-5" href="#report-toc__section-3__subsection-5" class="report-toc__sub-section-link">e. 難民の保護</a></li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-3__subsection-6" href="#report-toc__section-3__subsection-6" class="report-toc__sub-section-link">f. 国内避難民（IDP）の地位と扱い</a></li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-3__subsection-7" href="#report-toc__section-3__subsection-7" class="report-toc__sub-section-link">g. 無国籍者</a>
-                                        </li>
-                                    </ol>
-                                </li>
-                                <li class=""><a id="section-4" href="#report-toc__section-4" class="">第 3 節. 政治プロセスに参加の自由</a>
-                                    <ol class="report-toc__sub-sections">
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-4__subsection-1" href="#report-toc__section-4__subsection-1" class="report-toc__sub-section-link">選挙と政治参加</a>
-                                        </li>
-                                    </ol>
-                                </li>
-                                <li class=""><a id="section-5" href="#report-toc__section-5" class="">第 4 節. 政府の腐敗</a></li>
-                                <li class=""><a id="section-6" href="#report-toc__section-6" class="">第 5 節. 国際機関および非政府組織による人権侵害の監視・調査に対する政府の姿勢</a></li>
-                                <li class=""><a id="section-7" href="#report-toc__section-7" class="">第 6 節. 差別と社会的虐待</a>
-                                    <ol class="report-toc__sub-sections">
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-7__subsection-1" href="#report-toc__section-7__subsection-1" class="report-toc__sub-section-link">a. 女性</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-7__subsection-2" href="#report-toc__section-7__subsection-2" class="report-toc__sub-section-link">b. 制度的な人種的または民族的暴力と差別</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-7__subsection-3" href="#report-toc__section-7__subsection-3" class="report-toc__sub-section-link">c. 子供</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-7__subsection-4" href="#report-toc__section-7__subsection-4" class="report-toc__sub-section-link">d. 反ユダヤ主義</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-7__subsection-5" href="#report-toc__section-7__subsection-5" class="report-toc__sub-section-link">e. 人身売買</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-7__subsection-6" href="#report-toc__section-7__subsection-6" class="report-toc__sub-section-link">f. 強制臓器摘出</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-7__subsection-7" href="#report-toc__section-7__subsection-7" class="report-toc__sub-section-link">g. 性的指向、性別アイデンティティまたは表現、性の特性に基づく暴力行為、犯罪化、その他の虐待</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-7__subsection-8" href="#report-toc__section-7__subsection-8" class="report-toc__sub-section-link">h. 障害者</a>
-                                        </li>
-                                    </ol>
-                                </li>
-                                <li class="">
-                                    <a id="section-8" href="#report-toc__section-8" class="">第 7 節. 労働者の権利</a>
-                                    <ol class="report-toc__sub-sections">
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-8__subsection-1" href="#report-toc__section-8__subsection-1" class="report-toc__sub-section-link">a. 結社の自由と団体交渉の権利</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-8__subsection-2" href="#report-toc__section-8__subsection-2" class="report-toc__sub-section-link">b. 強制労働または義務労働の禁止</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-8__subsection-3" href="#report-toc__section-8__subsection-3" class="report-toc__sub-section-link">c. 児童労働の禁止と雇用の最低年齢</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-8__subsection-4" href="#report-toc__section-8__subsection-4" class="report-toc__sub-section-link">d. 差別（第 6 節を参照）</a>
-                                        </li>
-                                        <li class="report-toc__sub-section">
-                                            <a id="section-8__subsection-5" href="#report-toc__section-8__subsection-5" class="report-toc__sub-section-link">e. 受け入れ可能な労働条件</a>
-                                        </li>
-                                    </ol>
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
+            <div class="show-side-menu">
+                <input id="menu-toggle" type="checkbox">
+                <label class="menu-icon" for="menu-toggle"></label>
+            </div>
+            <div class="report__side">
+                <ol>
+                    <li class="">
+                        <a id="section-2" href="#report-toc__section-2" class=""> 第 1 節. 人の尊厳の尊重</a>
+                        <ol class="report-toc__sub-sections">
+                            <li class="report-toc__sub-section">
+                                <a id="section-2__subsection-1" href="#report-toc__section-2__subsection-1" class="report-toc__sub-section-link">a. 恣意的な生命の剥奪およびその他の違法または政治的動機による殺人</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-2__subsection-2" href="#report-toc__section-2__subsection-2" class="report-toc__sub-section-link">b. 失踪</a></li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-2__subsection-3" href="#report-toc__section-2__subsection-3" class="report-toc__sub-section-link">c. 拷問及びその他の残虐で非人道的または屈辱的な扱いや処罰、その他の関連する虐待</a>
+                                <ol class="report-toc__h4_sub-sections">
+                                    <li class="report-toc__h4_sub-section">
+                                        <a id="section-2__subsection-3__h4-1" href="#report-toc__section-2__subsection-3__h4-1" class="">刑務所および拘置所の状況</a>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-2__subsection-4" href="#report-toc__section-2__subsection-4" class="report-toc__sub-section-link">d. 恣意的な逮捕または拘留</a>
+                                <ol class="report-toc__h4_sub-sections">
+                                    <li class="report-toc__h4_sub-section">
+                                        <a id="section-2__subsection-4__h4-2" href="#report-toc__section-2__subsection-4__h4-2" class="">逮捕手続きおよび拘留者の扱い</a>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-2__subsection-5" href="#report-toc__section-2__subsection-5" class="report-toc__sub-section-link">e. 公正な公判の否定</a>
+                                <ol class="report-toc__h4_sub-sections">
+                                    <li class="report-toc__h4_sub-section">
+                                        <a id="section-2__subsection-5__h4-3" href="#report-toc__section-2__subsection-5__h4-3" class="">裁判手続き</a>
+                                    </li>
+                                    <li class="report-toc__h4_sub-section">
+                                        <a id="section-2__subsection-5__h4-4" href="#report-toc__section-2__subsection-5__h4-4" class="">政治犯と拘留者</a>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-2__subsection-6" href="#report-toc__section-2__subsection-6" class="report-toc__sub-section-link">f. 国境を越えて鎮圧</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-2__subsection-7" href="#report-toc__section-2__subsection-7" class="report-toc__sub-section-link">g. 財産の押収と返還</a></li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-2__subsection-8" href="#report-toc__section-2__subsection-8" class="report-toc__sub-section-link">h. 任意または違法なプライバシー、家族、住居、または通信への干渉</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="">
+                        <a id="section-3" href="#report-toc__section-3" class="">第 2 節. 市民の自由の尊重</a>
+                        <ol class="report-toc__sub-sections">
+                            <li class="report-toc__sub-section">
+                                <a id="section-3__subsection-1" href="#report-toc__section-3__subsection-1" class="report-toc__sub-section-link">a. 表現の自由、報道機関やその他のメディアのメンバーを含む</a>
+                                <ol class="report-toc__h4_sub-sections">
+                                    <li class="report-toc__h4_sub-section">
+                                        <a id="section-3__subsection-1__h4-5" href="#report-toc__section-3__subsection-1__h4-5" class="">インターネットの自由</a>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-3__subsection-2" href="#report-toc__section-3__subsection-2" class="report-toc__sub-section-link">b. 平和的集会および結社の自由</a>
+                                <ol class="report-toc__h4_sub-sections">
+                                    <li class="report-toc__h4_sub-section">
+                                        <a id="section-3__subsection-2__h4-6" href="#report-toc__section-3__subsection-2__h4-6" class="">平和的集会の自由</a>
+                                    </li>
+                                    <li class="report-toc__h4_sub-section">
+                                        <a id="section-3__subsection-2__h4-7" href="#report-toc__section-3__subsection-2__h4-7" class="">結社の自由</a>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-3__subsection-3" href="#report-toc__section-3__subsection-3" class="report-toc__sub-section-link">c. 宗教の自由</a></li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-3__subsection-4" href="#report-toc__section-3__subsection-4" class="report-toc__sub-section-link">d. 移動の自由と国を離れる権利</a></li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-3__subsection-5" href="#report-toc__section-3__subsection-5" class="report-toc__sub-section-link">e. 難民の保護</a></li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-3__subsection-6" href="#report-toc__section-3__subsection-6" class="report-toc__sub-section-link">f. 国内避難民（IDP）の地位と扱い</a></li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-3__subsection-7" href="#report-toc__section-3__subsection-7" class="report-toc__sub-section-link">g. 無国籍者</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="">
+                        <a id="section-4" href="#report-toc__section-4" class="">第 3 節. 政治プロセスに参加の自由</a>
+                        <ol class="report-toc__sub-sections">
+                            <li class="report-toc__sub-section">
+                                <a id="section-4__subsection-1" href="#report-toc__section-4__subsection-1" class="report-toc__sub-section-link">選挙と政治参加</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="">
+                        <a id="section-5" href="#report-toc__section-5" class="">第 4 節. 政府の腐敗</a>
+                    </li>
+                    <li class="">
+                        <a id="section-6" href="#report-toc__section-6" class="">第 5 節. 国際機関および非政府組織による人権侵害の監視・調査に対する政府の姿勢</a>
+                    </li>
+                    <li class="">
+                        <a id="section-7" href="#report-toc__section-7" class="">第 6 節. 差別と社会的虐待</a>
+                        <ol class="report-toc__sub-sections">
+                            <li class="report-toc__sub-section">
+                                <a id="section-7__subsection-1" href="#report-toc__section-7__subsection-1" class="report-toc__sub-section-link">a. 女性</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-7__subsection-2" href="#report-toc__section-7__subsection-2" class="report-toc__sub-section-link">b. 制度的な人種的または民族的暴力と差別</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-7__subsection-3" href="#report-toc__section-7__subsection-3" class="report-toc__sub-section-link">c. 子供</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-7__subsection-4" href="#report-toc__section-7__subsection-4" class="report-toc__sub-section-link">d. 反ユダヤ主義</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-7__subsection-5" href="#report-toc__section-7__subsection-5" class="report-toc__sub-section-link">e. 人身売買</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-7__subsection-6" href="#report-toc__section-7__subsection-6" class="report-toc__sub-section-link">f. 強制臓器摘出</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-7__subsection-7" href="#report-toc__section-7__subsection-7" class="report-toc__sub-section-link">g. 性的指向、性別アイデンティティまたは表現、性の特性に基づく暴力行為、犯罪化、その他の虐待</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-7__subsection-8" href="#report-toc__section-7__subsection-8" class="report-toc__sub-section-link">h. 障害者</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="">
+                        <a id="section-8" href="#report-toc__section-8" class="">第 7 節. 労働者の権利</a>
+                        <ol class="report-toc__sub-sections">
+                            <li class="report-toc__sub-section">
+                                <a id="section-8__subsection-1" href="#report-toc__section-8__subsection-1" class="report-toc__sub-section-link">a. 結社の自由と団体交渉の権利</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-8__subsection-2" href="#report-toc__section-8__subsection-2" class="report-toc__sub-section-link">b. 強制労働または義務労働の禁止</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-8__subsection-3" href="#report-toc__section-8__subsection-3" class="report-toc__sub-section-link">c. 児童労働の禁止と雇用の最低年齢</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-8__subsection-4" href="#report-toc__section-8__subsection-4" class="report-toc__sub-section-link">d. 差別（第 6 節を参照）</a>
+                            </li>
+                            <li class="report-toc__sub-section">
+                                <a id="section-8__subsection-5" href="#report-toc__section-8__subsection-5" class="report-toc__sub-section-link">e. 受け入れ可能な労働条件</a>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
             </div>
         </div>
         <div class="translation-rights">
